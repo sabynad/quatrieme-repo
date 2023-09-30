@@ -12,6 +12,7 @@
     background-color: white; 
 }
 
+
 ul{
     display: flex;
     justify-content: space-around;
@@ -19,12 +20,12 @@ ul{
 
 }
 
+
 header nav ul li{
     font-size: 18px ;
     display: block;
     margin: 1 rem;
     border: 1px dotted blue;
-    
 }
 
 header nav ul{
@@ -53,25 +54,24 @@ h1 {
     color:#592A2E ;
 }
 
-
-/*---------------body-------------------------*/
 .img-bann {
     width: 100%;
 }
+
+/*---------------body-------------------------*/
 body{   
    background-color: #736B65;
 }
 /*-------------BLOC---------------------*/
 .bloc{
     width: 30%;
-    
     background-color: #736B65;
 }
 
 h2{
     text-align: center;
     color: white;
-    border: solid red;
+    /* border: solid red; */
     padding: 5%;
     background-color: #592A2E;
 }
@@ -82,7 +82,6 @@ p{
 
 .img-bloc{
     width: 100%;
-
 }
 
 .img-plus
@@ -97,13 +96,75 @@ p{
 }
 
 .box{
-    border: 1px solid blue;
+    /* border: 3px solid blue; */
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 10%;
 }
 
-#tessimonials{
-    display: flex;
+.bloc-tesimonials{
+    width: 30%;
+    border: 2px solid rgb(39, 239, 55);
+    margin-left: 0%;
     
 }
+
+.text-tesimonials{
+    flex-direction: column;
+}
+
+.p-premium p{
+    color: black;
+}
+
+.p-article{
+    color: black;
+}
+
+.box-bas{
+    width: 100%;
+    margin-top: 8%;
+    border: 2px solid red;
+    display: flex;
+}
+
+h3{
+    margin-bottom: 2rem;
+}
+
+.bouton{
+    border:1px solid;
+    
+    color: white;
+    background-color: #736B65;
+    
+}
+
+
+.bloc-premium{
+    width: 30%;
+    border: 2px solid pink;
+    background-color: white;   
+}
+
+.bloc-about{
+    border: 2px solid green;
+    width: 30%;
+    
+}
+
+span{
+    color: #592A2E;
+    font-weight: bold;  /*texte en gras*/
+}
+
+footer{
+    border: 3px solid yellow;
+    padding: 5%;
+    border-top: 2px solid black;
+    display: flex;
+}
+
+
+
