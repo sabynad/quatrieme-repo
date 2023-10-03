@@ -78,6 +78,9 @@ h2{
     background-color: #592A2E;
 }
 
+.bloc p{
+    color: white;
+}
 
 .img-bloc{
     width: 100%;
@@ -102,7 +105,7 @@ h2{
 
 .text-tesimonials{
     flex-direction: column;
-    
+     
 }
 
 
@@ -126,6 +129,13 @@ h3{
     /* border: 2px solid rgb(39, 239, 55); */
    
 }
+
+.text-tesimonials ul{
+    display: flex ;
+    flex-direction: column;
+    
+}
+
 .bloc-premium{
     width: 30%;
     /* border: 2px solid pink; */
@@ -143,11 +153,10 @@ span{
 
 .btn-readmore{
    /* border: 1px solid red; */
-   
+   padding: 3%;
    text-decoration: none;
    color: white;
    background-color: #592A2E;  
-   
 }
 
 .btn{
